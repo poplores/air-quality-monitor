@@ -1,9 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from datetime import datetime
 import json
 import os
 
+
 app = Flask(__name__)
+CORS(app)
 
 # Simple file-based storage for now
 DATA_FILE = 'sensor_data.json'
