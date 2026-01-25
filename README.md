@@ -180,21 +180,6 @@ Built as a portfolio project for internship applications.
 
 
 
-\## License
-
-
-
-MIT
-
-```
-
-
-
-Save and close. Then commit and push:
-
-```
-
-git add README.md
 
 git commit -m "Add comprehensive README"
 
